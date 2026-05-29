@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Task Summary" section_id="0d44f83cecf34127a7b87f8c97125dc4" sys_domain="global" table="x_1970973_claim_0_claim_tasks" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>71cad90f38244822bef8ee524d3cd84a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Task Summary" display_value="Task Summary" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">0d44f83cecf34127a7b87f8c97125dc4</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>number</element>
+      <position>10</position>
+      <sys_id>d2a488c8e7524d51852baa27feda4024</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Task Summary" display_value="Task Summary" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">0d44f83cecf34127a7b87f8c97125dc4</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>task_type</element>
+      <position>20</position>
+      <sys_id>38928be844e5465eb4872daf7d402645</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Task Summary" display_value="Task Summary" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">0d44f83cecf34127a7b87f8c97125dc4</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>priority</element>
+      <position>30</position>
+      <sys_id>a7c79de583f64df49fe59f4529e41a47</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Task Summary" display_value="Task Summary" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">0d44f83cecf34127a7b87f8c97125dc4</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>40</position>
+      <sys_id>de4b9b39993349cabbd287d41a7aa122</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Task Summary" display_value="Task Summary" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">0d44f83cecf34127a7b87f8c97125dc4</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>parent_claim</element>
+      <position>50</position>
+      <sys_id>d2e53906db784db588a6d0fbccab8a0a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Task Summary" display_value="Task Summary" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">0d44f83cecf34127a7b87f8c97125dc4</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>state</element>
+      <position>60</position>
+      <sys_id>54364f4fe9f04fa79fe393b9120710f1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Task Summary" display_value="Task Summary" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">0d44f83cecf34127a7b87f8c97125dc4</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>short_description</element>
+      <position>70</position>
+      <sys_id>1c864250f591401a859ef6aa4a495060</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Task Summary" display_value="Task Summary" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">0d44f83cecf34127a7b87f8c97125dc4</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>80</position>
+      <sys_id>c3369d2c39e5455f9ce4115124509c9f</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Task Summary" display_value="Task Summary" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">0d44f83cecf34127a7b87f8c97125dc4</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Task Summary</caption>
+      <header>false</header>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>0d44f83cecf34127a7b87f8c97125dc4</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

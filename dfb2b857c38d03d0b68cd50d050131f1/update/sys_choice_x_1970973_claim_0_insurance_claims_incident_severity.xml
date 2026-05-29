@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="incident_severity" table="x_1970973_claim_0_insurance_claims">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>39b20f913b934815b1306ccf6acf2a68</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>incident_severity</element>
+      <label>Low</label>
+      <value>low</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>ab735fe1a0f440b681fdf6d19d226929</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>incident_severity</element>
+      <label>Medium</label>
+      <value>medium</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>88a9675ed5514826bddb8ee566c2ebab</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>incident_severity</element>
+      <label>High</label>
+      <value>high</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>8f62ebc80e7749468eed0121395cc1bc</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>incident_severity</element>
+      <label>Critical</label>
+      <value>critical</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>6f918dc929da424d96b1cec5f0e5ceca</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>incident_severity</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>

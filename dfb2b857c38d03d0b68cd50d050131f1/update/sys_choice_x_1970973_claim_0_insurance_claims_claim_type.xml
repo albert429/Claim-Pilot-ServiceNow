@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="claim_type" table="x_1970973_claim_0_insurance_claims">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>a5df6815b6364537a172f4435bff8795</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>claim_type</element>
+      <label>Car</label>
+      <value>car</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>c1095110c9ce48ddbbbace02cdffe02d</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>claim_type</element>
+      <label>Medical</label>
+      <value>medical</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>19aeeff9399b408396b707455c5c82f1</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>claim_type</element>
+      <label>Property</label>
+      <value>property</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>4de68cbf36624df2be809fdffd9c3851</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>claim_type</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>

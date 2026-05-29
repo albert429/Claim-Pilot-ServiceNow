@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Incident Details" section_id="efe7cd43c9f047b59ebfc9d23eff29fe" sys_domain="global" table="x_1970973_claim_0_insurance_claims" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>24838486b257457a955f51514abc5c5b</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Incident Details" display_value="Incident Details" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">efe7cd43c9f047b59ebfc9d23eff29fe</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>incident_date</element>
+      <position>10</position>
+      <sys_id>0a3a2e71b91f4060ad8bd6c434a4e865</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Incident Details" display_value="Incident Details" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">efe7cd43c9f047b59ebfc9d23eff29fe</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>incident_severity</element>
+      <position>20</position>
+      <sys_id>e8622ceb07394c0d9310afdba7f02371</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Incident Details" display_value="Incident Details" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">efe7cd43c9f047b59ebfc9d23eff29fe</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>30</position>
+      <sys_id>cbd99dd26def4eafa61ec878a452da14</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Incident Details" display_value="Incident Details" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">efe7cd43c9f047b59ebfc9d23eff29fe</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>region</element>
+      <position>40</position>
+      <sys_id>c34a5f14db114c129949c82b3a23c921</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Incident Details" display_value="Incident Details" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">efe7cd43c9f047b59ebfc9d23eff29fe</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>50</position>
+      <sys_id>d97e5a9bb31046c5901cffd18a1deb06</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Incident Details" display_value="Incident Details" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">efe7cd43c9f047b59ebfc9d23eff29fe</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>description</element>
+      <position>60</position>
+      <sys_id>1bcb80f4a30b4a1c8dcbbb80a9be458e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Incident Details" display_value="Incident Details" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">efe7cd43c9f047b59ebfc9d23eff29fe</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Incident Details</caption>
+      <header>false</header>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>efe7cd43c9f047b59ebfc9d23eff29fe</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

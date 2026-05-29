@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Assignment" section_id="80e1fab7867e4028908ce966b3a93d34" sys_domain="global" table="x_1970973_claim_0_claim_tasks" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>8273245ce4854b41ad88ed68e541bcb9</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">80e1fab7867e4028908ce966b3a93d34</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>assignment_group</element>
+      <position>10</position>
+      <sys_id>877f3cd624fa443186e415786d0b4f31</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">80e1fab7867e4028908ce966b3a93d34</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>20</position>
+      <sys_id>591646d0a2d04ddba55198996ba5cccb</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">80e1fab7867e4028908ce966b3a93d34</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>assigned_to</element>
+      <position>30</position>
+      <sys_id>a6f88196a5994da09d834e0c17e9a11d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">80e1fab7867e4028908ce966b3a93d34</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>due_date</element>
+      <position>40</position>
+      <sys_id>08b5a0b2add94e6bb2764e4d4060fd71</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">80e1fab7867e4028908ce966b3a93d34</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>50</position>
+      <sys_id>cbe33c5feb5f4cbeb9ad5165e4a11bce</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">80e1fab7867e4028908ce966b3a93d34</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Assignment</caption>
+      <header>false</header>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>80e1fab7867e4028908ce966b3a93d34</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

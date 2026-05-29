@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_documentation">
+  <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_id>5bdf266aa8974e8db4d8b0e6117ab0fd</sys_id>
+    <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+    <sys_update_name>sys_documentation_x_1970973_claim_0_insurance_claims_sys_id_en</sys_update_name>
+    <element>sys_id</element>
+    <help/>
+    <hint/>
+    <label>Sys ID</label>
+    <language>en</language>
+    <name>x_1970973_claim_0_insurance_claims</name>
+    <plural>Sys IDs</plural>
+    <url/>
+    <url_target/>
+  </sys_documentation>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Work Details" section_id="ac965528ba9149bfbadb9b89cf40f4c1" sys_domain="global" table="x_1970973_claim_0_claim_tasks" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>d0c33e073a834c0f9bc59402e1b5ab43</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Work Details" display_value="Work Details" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">ac965528ba9149bfbadb9b89cf40f4c1</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>outcome</element>
+      <position>10</position>
+      <sys_id>1b1af81e976d4feeb5f6e2039e674e7a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Work Details" display_value="Work Details" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">ac965528ba9149bfbadb9b89cf40f4c1</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>20</position>
+      <sys_id>4429d2a558564b26b990b56ff54e6da0</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Work Details" display_value="Work Details" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">ac965528ba9149bfbadb9b89cf40f4c1</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>30</position>
+      <sys_id>600f5311ed8d47e1a707a311d1f9af43</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Work Details" display_value="Work Details" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">ac965528ba9149bfbadb9b89cf40f4c1</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>description</element>
+      <position>40</position>
+      <sys_id>f2939c797e5f4515aae4c77442bc6fcc</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Work Details" display_value="Work Details" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">ac965528ba9149bfbadb9b89cf40f4c1</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>findings</element>
+      <position>50</position>
+      <sys_id>951f505bbe8f43cdad2feebdb608bf36</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Work Details" display_value="Work Details" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">ac965528ba9149bfbadb9b89cf40f4c1</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Work Details</caption>
+      <header>false</header>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>ac965528ba9149bfbadb9b89cf40f4c1</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

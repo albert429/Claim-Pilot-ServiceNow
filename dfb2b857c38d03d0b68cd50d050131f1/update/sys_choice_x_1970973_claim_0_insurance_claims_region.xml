@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="region" table="x_1970973_claim_0_insurance_claims">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>3e54a1a001e84d86a4ed8fdf4af130fa</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>region</element>
+      <label>North</label>
+      <value>north</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>fd80bb89fb2d4d9e8df3d9865a88c10a</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>region</element>
+      <label>South</label>
+      <value>south</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>c2adc4d7ed3548efa3cdd47d8f38e1a8</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>region</element>
+      <label>East</label>
+      <value>east</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>fb1f8b8bd920490d865a29ca6cf97c2d</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>region</element>
+      <label>West</label>
+      <value>west</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>6b2295a1c3294656b5fc81256d2a59bc</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>region</element>
+      <label>Central</label>
+      <value>central</value>
+      <sequence>4</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>2d43e6842f1e493093521863aa47c3a5</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>region</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="task_type" table="x_1970973_claim_0_claim_tasks">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>5a415a6d98704da9a436e67e7daf6267</sys_id>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>task_type</element>
+      <label>Document Verification</label>
+      <value>document_verification</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>bc93298dc3c240258dcd9169ed9fe339</sys_id>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>task_type</element>
+      <label>Investigation</label>
+      <value>investigation</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>8492244dc6dc436a9443ab9e15219a26</sys_id>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>task_type</element>
+      <label>Fraud Review</label>
+      <value>fraud_review</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>f6fb192a308d421ebf5959f5b6d7cccd</sys_id>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>task_type</element>
+      <label>Payment Processing</label>
+      <value>payment_processing</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>04eff2688d754bc2abada8e100da8f4f</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>task_type</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>

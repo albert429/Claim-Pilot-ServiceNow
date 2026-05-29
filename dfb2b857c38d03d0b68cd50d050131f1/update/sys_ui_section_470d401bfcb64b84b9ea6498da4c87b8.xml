@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Assignment" section_id="470d401bfcb64b84b9ea6498da4c87b8" sys_domain="global" table="x_1970973_claim_0_insurance_claims" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>81e9f2c1fe854c05947e79b01ec677f8</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">470d401bfcb64b84b9ea6498da4c87b8</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>assignment_group</element>
+      <position>10</position>
+      <sys_id>f984e08868b24b038e8d2b81881a0dfe</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">470d401bfcb64b84b9ea6498da4c87b8</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>customer_type</element>
+      <position>20</position>
+      <sys_id>2074bcb062cd496b8d6dd466a8c74bd3</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">470d401bfcb64b84b9ea6498da4c87b8</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>30</position>
+      <sys_id>8c1a2f178d314d779bc17e3ceaad5911</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">470d401bfcb64b84b9ea6498da4c87b8</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>assigned_to</element>
+      <position>40</position>
+      <sys_id>dc9bd9840ab24ee5a2b959c8f8970615</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">470d401bfcb64b84b9ea6498da4c87b8</sys_ui_section>
+      <sys_user/>
+      <type>element</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>50</position>
+      <sys_id>31dddd1ecfdb4b84b2b765a2d62f3185</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">470d401bfcb64b84b9ea6498da4c87b8</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Assignment</caption>
+      <header>false</header>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>470d401bfcb64b84b9ea6498da4c87b8</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

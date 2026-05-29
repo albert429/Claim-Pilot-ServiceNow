@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="f07b0a2f1b834c7fa5d0c2da7a476a32" sys_domain="global" table="x_1970973_claim_0_claim_tasks">
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>0</position>
+      <sys_id>1ebe87c419904de4bc0e3fec2dc4105c</sys_id>
+      <sys_ui_form display_value="x_1970973_claim_0_claim_tasks" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">f07b0a2f1b834c7fa5d0c2da7a476a32</sys_ui_form>
+      <sys_ui_section caption="Task Summary" display_value="Task Summary" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">0d44f83cecf34127a7b87f8c97125dc4</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>1</position>
+      <sys_id>296d91b19e764c10b8cbe3e45f1d7e66</sys_id>
+      <sys_ui_form display_value="x_1970973_claim_0_claim_tasks" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">f07b0a2f1b834c7fa5d0c2da7a476a32</sys_ui_form>
+      <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">80e1fab7867e4028908ce966b3a93d34</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>2</position>
+      <sys_id>239c33ad51c948098282041f54a790cc</sys_id>
+      <sys_ui_form display_value="x_1970973_claim_0_claim_tasks" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">f07b0a2f1b834c7fa5d0c2da7a476a32</sys_ui_form>
+      <sys_ui_section caption="Work Details" display_value="Work Details" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">ac965528ba9149bfbadb9b89cf40f4c1</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>3</position>
+      <sys_id>233c7ba6357b4092a934868aad16fe81</sys_id>
+      <sys_ui_form display_value="x_1970973_claim_0_claim_tasks" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">f07b0a2f1b834c7fa5d0c2da7a476a32</sys_ui_form>
+      <sys_ui_section caption="Timeline" display_value="Timeline" name="x_1970973_claim_0_claim_tasks" sys_domain="global" view="Default view">2c721abf41374299a5250cc608ac6b4e</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE">
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <roles/>
+      <sys_id>f07b0a2f1b834c7fa5d0c2da7a476a32</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <sys_user/>
+      <view>Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>

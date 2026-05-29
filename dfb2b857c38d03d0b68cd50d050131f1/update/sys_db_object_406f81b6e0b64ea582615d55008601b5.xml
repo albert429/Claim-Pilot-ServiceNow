@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+  <sys_db_object action="INSERT_OR_UPDATE">
+    <sys_id>406f81b6e0b64ea582615d55008601b5</sys_id>
+    <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+    <sys_update_name>sys_db_object_406f81b6e0b64ea582615d55008601b5</sys_update_name>
+    <access>public</access>
+    <actions_access>true</actions_access>
+    <alter_access>true</alter_access>
+    <caller_access>0</caller_access>
+    <client_scripts_access>true</client_scripts_access>
+    <create_access>true</create_access>
+    <delete_access>false</delete_access>
+    <is_extendable>false</is_extendable>
+    <label>Insurance Claims</label>
+    <live_feed_enabled>false</live_feed_enabled>
+    <name>x_1970973_claim_0_insurance_claims</name>
+    <number_ref category="x_1970973_claim_0_insurance_claims" prefix="INCLM">64db8c0dff6a4071a330b608215be08c</number_ref>
+    <read_access>true</read_access>
+    <scriptable_table>false</scriptable_table>
+    <super_class name="task">94a08966b5494d8f820b86b458419180</super_class>
+    <update_access>true</update_access>
+    <ws_access>true</ws_access>
+  </sys_db_object>
+</record_update>

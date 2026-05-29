@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="customer_type" table="x_1970973_claim_0_insurance_claims">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>d74686199b2640aebf721bec669dc0b4</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>customer_type</element>
+      <label>Standard</label>
+      <value>standard</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>ff085ec670a04014b1fce76203c121ef</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>customer_type</element>
+      <label>VIP</label>
+      <value>vip</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>bf692688b58d41ebb968c52d82da4431</sys_id>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>customer_type</element>
+      <label>Corporate</label>
+      <value>corporate</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>327c9d49092f45cfb8f63d3c4ada88e1</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <name>x_1970973_claim_0_insurance_claims</name>
+      <element>customer_type</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>

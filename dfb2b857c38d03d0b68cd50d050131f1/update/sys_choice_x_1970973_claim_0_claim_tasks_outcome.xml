@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="outcome" table="x_1970973_claim_0_claim_tasks">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>75042867d34f46bcbe70f700727ae8dd</sys_id>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>outcome</element>
+      <label>Verified</label>
+      <value>verified</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>443ba017e7334cfd9d7cc4de5f5bf538</sys_id>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>outcome</element>
+      <label>Needs Info</label>
+      <value>needs_info</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>30cc1f93ad0c4cb19bf770ddacd11a78</sys_id>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>outcome</element>
+      <label>Suspicious</label>
+      <value>suspicious</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>aa3a1a82a48346cb94780d6cfb47fd28</sys_id>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>outcome</element>
+      <label>Complete</label>
+      <value>complete</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>412c52c3f66243348cca0cb4831ec735</sys_id>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>outcome</element>
+      <label>Not Applicable</label>
+      <value>not_applicable</value>
+      <sequence>4</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>24a1fd33b6814850906cbdad66693e69</sys_id>
+      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+      <name>x_1970973_claim_0_claim_tasks</name>
+      <element>outcome</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>
