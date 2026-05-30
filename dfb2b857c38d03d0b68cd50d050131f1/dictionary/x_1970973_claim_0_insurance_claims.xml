@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="cb83f4d7c38d03d0b68cd50d05013121" extends="task" label="Insurance Claims" max_length="40" name="x_1970973_claim_0_insurance_claims" type="collection">
+        <element label="Missing Documents" max_length="40" name="missing_documents" type="boolean"/>
+        <element choice="3" label="Incident Severity" mandatory="true" max_length="40" name="incident_severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="critical"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+            </choice>
+        </element>
+        <element label="Fraud Reason" max_length="4000" name="fraud_reason" type="string"/>
+        <element choice="3" label="Claim Type" mandatory="true" max_length="40" name="claim_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Property" sequence="2" value="property"/>
+                <element inactive_on_update="false" label="Car" sequence="0" value="car"/>
+                <element inactive_on_update="false" label="Medical" sequence="1" value="medical"/>
+            </choice>
+        </element>
+        <element label="Incident Date" mandatory="true" max_length="40" name="incident_date" type="glide_date_time"/>
+        <element choice="1" default="100" function_definition="100" label="Claim Status" mandatory="true" max_length="255" name="claim_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="new" sequence="0" value="100"/>
+                <element inactive_on_update="false" label="investigation" sequence="2" value="300"/>
+                <element inactive_on_update="false" label="closed" sequence="5" value="600"/>
+                <element inactive_on_update="false" label="under_review" sequence="1" value="200"/>
+                <element inactive_on_update="false" label="rejected" sequence="4" value="500"/>
+                <element inactive_on_update="false" label="approved" sequence="3" value="400"/>
+            </choice>
+        </element>
+        <element label="Potential Fraud" max_length="40" name="potential_fraud" type="boolean"/>
+        <element label="Rejection Reason" max_length="4000" name="rejection_reason" type="string"/>
+        <element label="Approved Amount" max_length="20" name="approved_amount" type="decimal"/>
+        <element choice="1" label="Customer Type" max_length="40" name="customer_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Corporate" sequence="2" value="corporate"/>
+                <element inactive_on_update="false" label="Standard" sequence="0" value="standard"/>
+                <element inactive_on_update="false" label="VIP" sequence="1" value="vip"/>
+            </choice>
+        </element>
+        <element label="Claim Amount" mandatory="true" max_length="20" name="claim_amount" type="decimal"/>
+        <element choice="3" label="Region" mandatory="true" max_length="40" name="region" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="North" sequence="0" value="north"/>
+                <element inactive_on_update="false" label="Central" sequence="4" value="central"/>
+                <element inactive_on_update="false" label="East" sequence="2" value="east"/>
+                <element inactive_on_update="false" label="West" sequence="3" value="west"/>
+                <element inactive_on_update="false" label="South" sequence="1" value="south"/>
+            </choice>
+        </element>
+        <element label="Customer" mandatory="true" max_length="32" name="customer" reference="sys_user" type="reference"/>
+    </element>
+</database>

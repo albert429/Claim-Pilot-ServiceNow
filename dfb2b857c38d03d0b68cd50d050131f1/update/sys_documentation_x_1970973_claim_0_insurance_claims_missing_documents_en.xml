@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="missing_documents" label="Missing Documents" language="en" table="x_1970973_claim_0_insurance_claims">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>missing_documents</element>
+            <help/>
+            <hint/>
+            <label>Missing Documents</label>
+            <language>en</language>
+            <name>x_1970973_claim_0_insurance_claims</name>
+            <plural>Missing Documents</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 13:27:04</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Missing Documents</sys_name>
+            <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+            <sys_update_name>sys_documentation_x_1970973_claim_0_insurance_claims_missing_documents_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 13:27:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7c2b70d7c3cd03d0b68cd50d050131eb" extends="task" label="Claim Tasks" max_length="40" name="x_1970973_claim_0_claim_tasks" type="collection">
+        <element label="Parent Claim" mandatory="true" max_length="32" name="parent_claim" reference="x_1970973_claim_0_insurance_claims" type="reference"/>
+        <element choice="3" label="Task Type" mandatory="true" max_length="40" name="task_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Document Verification" sequence="0" value="document_verification"/>
+                <element inactive_on_update="false" label="Fraud Review" sequence="2" value="fraud_review"/>
+                <element inactive_on_update="false" label="Investigation" sequence="1" value="investigation"/>
+                <element inactive_on_update="false" label="Payment Processing" sequence="3" value="payment_processing"/>
+            </choice>
+        </element>
+        <element label="Findings" max_length="4000" name="findings" type="string"/>
+        <element choice="1" label="Outcome" max_length="40" name="outcome" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Suspicious" sequence="2" value="suspicious"/>
+                <element inactive_on_update="false" label="Not Applicable" sequence="4" value="not_applicable"/>
+                <element inactive_on_update="false" label="Needs Info" sequence="1" value="needs_info"/>
+                <element inactive_on_update="false" label="Verified" sequence="0" value="verified"/>
+                <element inactive_on_update="false" label="Complete" sequence="3" value="complete"/>
+            </choice>
+        </element>
+    </element>
+</database>

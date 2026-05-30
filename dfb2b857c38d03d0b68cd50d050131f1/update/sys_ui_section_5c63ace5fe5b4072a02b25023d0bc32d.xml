@@ -1,116 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_section caption="Claim Summary" section_id="5c63ace5fe5b4072a02b25023d0bc32d" sys_domain="global" table="x_1970973_claim_0_insurance_claims" view="Default view">
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>.begin_split</element>
-      <position>0</position>
-      <sys_id>a683655f7668409cbd422acfcfbc4a58</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>.begin_split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>number</element>
-      <position>10</position>
-      <sys_id>1b73d7ad1da34ac8a6b6258751e77e47</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>element</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>claim_type</element>
-      <position>20</position>
-      <sys_id>888486f52891410493cf004ada5e3395</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>element</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>priority</element>
-      <position>30</position>
-      <sys_id>a31b12112a2c4919afbc129a2a8f068e</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>element</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>claim_amount</element>
-      <position>40</position>
-      <sys_id>5f32c3e28a114e25bffa5f065a4576dd</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>element</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>.split</element>
-      <position>50</position>
-      <sys_id>06da024c0c9b44e58106816c4e71c713</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>.split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>customer</element>
-      <position>60</position>
-      <sys_id>9621edda532b4c1d8f3f14c5894cf642</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>element</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>state</element>
-      <position>70</position>
-      <sys_id>722c43b6b5e14bc3be16b3a763d1fb5a</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>element</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>short_description</element>
-      <position>80</position>
-      <sys_id>cd68f65d354c48f89d6dff79340e1163</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>element</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>approved_amount</element>
-      <position>90</position>
-      <sys_id>a8d6a7fd6b93473dbb0a8edded0bc5fb</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>element</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>.end_split</element>
-      <position>100</position>
-      <sys_id>e8f244c835e24ac69171de132e5a9f5f</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
-      <sys_user/>
-      <type>.end_split</type>
-    </sys_ui_element>
-    <sys_ui_section action="INSERT_OR_UPDATE">
-      <caption>Claim Summary</caption>
-      <header>false</header>
-      <name>x_1970973_claim_0_insurance_claims</name>
-      <roles/>
-      <sys_domain>global</sys_domain>
-      <sys_id>5c63ace5fe5b4072a02b25023d0bc32d</sys_id>
-      <sys_scope display_value="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
-      <sys_user/>
-      <title>false</title>
-      <view_name/>
-      <view>Default view</view>
+    <sys_ui_section caption="Claim Summary" section_id="5c63ace5fe5b4072a02b25023d0bc32d" sys_domain="global" table="x_1970973_claim_0_insurance_claims" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 18:13:22</sys_created_on>
+            <sys_id>db440a13c34943d0b68cd50d050131e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 18:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 18:13:22</sys_created_on>
+            <sys_id>93440a13c34943d0b68cd50d050131e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 18:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claim_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 18:13:22</sys_created_on>
+            <sys_id>13440a13c34943d0b68cd50d050131e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 18:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claim_status</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 18:13:22</sys_created_on>
+            <sys_id>9f440a13c34943d0b68cd50d050131e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 18:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 18:13:22</sys_created_on>
+            <sys_id>1f440a13c34943d0b68cd50d050131ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 18:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 18:13:22</sys_created_on>
+            <sys_id>9b440a13c34943d0b68cd50d050131eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 18:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 18:13:22</sys_created_on>
+            <sys_id>1b440a13c34943d0b68cd50d050131ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 18:13:22</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 18:13:22</sys_created_on>
+            <sys_id>97440a13c34943d0b68cd50d050131ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 18:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claim_amount</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 18:13:22</sys_created_on>
+            <sys_id>17440a13c34943d0b68cd50d050131ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 18:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approved_amount</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 18:13:22</sys_created_on>
+            <sys_id>93440a13c34943d0b68cd50d050131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Summary" display_value="Claim Summary" name="x_1970973_claim_0_insurance_claims" sys_domain="global" view="Default view">5c63ace5fe5b4072a02b25023d0bc32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 18:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Claim Summary</caption>
+            <header>false</header>
+            <name>x_1970973_claim_0_insurance_claims</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-29 13:27:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c63ace5fe5b4072a02b25023d0bc32d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1970973_claim_0_insurance_claims</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+            <sys_update_name>sys_ui_section_5c63ace5fe5b4072a02b25023d0bc32d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-29 13:27:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
     </sys_ui_section>
-  </sys_ui_section>
 </record_update>
