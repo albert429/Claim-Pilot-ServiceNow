@@ -18,14 +18,20 @@
             </choice>
         </element>
         <element label="Incident Date" mandatory="true" max_length="40" name="incident_date" type="glide_date_time"/>
-        <element choice="1" default="100" function_definition="100" label="Claim Status" mandatory="true" max_length="255" name="claim_status" type="choice">
+        <element choice="1" default="investigation" function_definition="100" label="Claim Status" mandatory="true" max_length="255" name="claim_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="new" sequence="0" value="100"/>
-                <element inactive_on_update="false" label="investigation" sequence="2" value="300"/>
-                <element inactive_on_update="false" label="closed" sequence="5" value="600"/>
-                <element inactive_on_update="false" label="under_review" sequence="1" value="200"/>
-                <element inactive_on_update="false" label="rejected" sequence="4" value="500"/>
-                <element inactive_on_update="false" label="approved" sequence="3" value="400"/>
+                <element inactive="true" inactive_on_update="true" label="new" sequence="0" value="100"/>
+                <element inactive="true" inactive_on_update="true" label="investigation" sequence="2" value="300"/>
+                <element inactive_on_update="false" label="Investigation" sequence="2" value="investigation"/>
+                <element inactive="true" inactive_on_update="true" label="closed" sequence="5" value="600"/>
+                <element inactive="true" inactive_on_update="true" label="under_review" sequence="1" value="200"/>
+                <element inactive_on_update="false" label="Under Review" sequence="5" value="under_review"/>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="closed"/>
+                <element inactive="true" inactive_on_update="true" label="rejected" sequence="4" value="500"/>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive="true" inactive_on_update="true" label="approved" sequence="3" value="400"/>
+                <element inactive_on_update="false" label="New" sequence="3" value="new"/>
             </choice>
         </element>
         <element label="Potential Fraud" max_length="40" name="potential_fraud" type="boolean"/>
