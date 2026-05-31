@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="">f1f2c47bc38907d0b68cd50d0501314c</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-30 22:06:20</sys_created_on>
+        <sys_id>71338c7bc38907d0b68cd50d05013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Insurance Claim.SNC External</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_71338c7bc38907d0b68cd50d05013172</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-30 22:06:20</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</application>
+        <file_path/>
+        <instance_id>0a147c7cebf022943a48f459bad0cd68</instance_id>
+        <instance_name>dev318981</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_71338c7bc38907d0b68cd50d05013172</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="">f1f2c47bc38907d0b68cd50d0501314c</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-30 22:06:20</sys_created_on><sys_id>71338c7bc38907d0b68cd50d05013172</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit Insurance Claim.SNC External</sys_name><sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package><sys_policy/><sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_71338c7bc38907d0b68cd50d05013172</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-30 22:06:20</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1572886633</payload_hash>
+        <record_name>Submit Insurance Claim.SNC External</record_name>
+        <reverted_from/>
+        <source>9e0d8821c3300310b68cd50d05013122</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-05-11 12:47:13</sys_created_on>
+        <sys_id>6468e8b7c3cd07d0b68cd50d050131c4</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19e1713c8680000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>2468e8b7a9cd07d05a84a6db528f93c4</update_guid>
+        <update_guid_history>2468e8b7a9cd07d05a84a6db528f93c4:1572886633</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Submit Insurance Claim.SNC External">6468e8b7c3cd07d0b68cd50d050131c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 00:48:43</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>38235dda1d3743008ed6db8523310000</sys_id>
+        <sys_metadata>71338c7bc38907d0b68cd50d05013172</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Insurance Claim.SNC External</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_scope_delete display_value="">2d460c608bf64b0094b6c182c7dc02b9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_71338c7bc38907d0b68cd50d05013172</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_71338c7bc38907d0b68cd50d05013172">6468e8b7c3cd07d0b68cd50d050131c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 00:48:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

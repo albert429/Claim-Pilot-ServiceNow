@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Submit Insurance Claim">f1f2c47bc38907d0b68cd50d0501314c</sc_cat_item>
+        <sc_category display_value="Insurance Claims">de676437c3cd07d0b68cd50d05013116</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 00:46:11</sys_created_on>
+        <sys_id>57c76477c3cd07d0b68cd50d050131d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insurance Claims.Submit Insurance Claim</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sc_cat_item_category_57c76477c3cd07d0b68cd50d050131d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 00:46:11</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</application>
+        <file_path/>
+        <instance_id>0a147c7cebf022943a48f459bad0cd68</instance_id>
+        <instance_name>dev318981</instance_name>
+        <name>sc_cat_item_category_57c76477c3cd07d0b68cd50d050131d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Submit Insurance Claim">f1f2c47bc38907d0b68cd50d0501314c</sc_cat_item><sc_category display_value="Insurance Claims">de676437c3cd07d0b68cd50d05013116</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-31 00:46:11</sys_created_on><sys_id>57c76477c3cd07d0b68cd50d050131d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Insurance Claims.Submit Insurance Claim</sys_name><sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package><sys_policy/><sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope><sys_update_name>sc_cat_item_category_57c76477c3cd07d0b68cd50d050131d2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-31 00:46:11</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2095089820</payload_hash>
+        <record_name>Insurance Claims.Submit Insurance Claim</record_name>
+        <reverted_from/>
+        <source>3be87e23c34107d0b68cd50d05013153</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 00:46:11</sys_created_on>
+        <sys_id>93c7a477c3cd07d0b68cd50d0501318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e7b7eda340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 00:46:11</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>53c7a477f7cd07d0d1aebe6ba446d189</update_guid>
+        <update_guid_history>53c7a477f7cd07d0d1aebe6ba446d189:2095089820</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Insurance Claims.Submit Insurance Claim">9468e8b7c3cd07d0b68cd50d05013193</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 00:48:43</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>163288685e5741e2ab0dfe17d56a3984</sys_id>
+        <sys_metadata>57c76477c3cd07d0b68cd50d050131d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insurance Claims.Submit Insurance Claim</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_scope_delete display_value="">2d460c608bf64b0094b6c182c7dc02b9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_57c76477c3cd07d0b68cd50d050131d2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_57c76477c3cd07d0b68cd50d050131d2">93c7a477c3cd07d0b68cd50d0501318a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 00:48:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

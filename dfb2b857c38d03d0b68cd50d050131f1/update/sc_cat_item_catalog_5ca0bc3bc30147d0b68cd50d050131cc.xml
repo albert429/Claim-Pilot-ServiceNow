@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Submit Insurance Claim">18a0bcf7c30147d0b68cd50d05013103</sc_cat_item>
+        <sc_catalog display_value="Claim Pilot Services">559668b3c3cd07d0b68cd50d05013115</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 01:24:45</sys_created_on>
+        <sys_id>5ca0bc3bc30147d0b68cd50d050131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Pilot Services.Submit Insurance Claim</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_5ca0bc3bc30147d0b68cd50d050131cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 01:24:45</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
