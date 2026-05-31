@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <advanced_placeholder_dimensions>false</advanced_placeholder_dimensions>
+        <async_load>false</async_load>
+        <async_load_device_type>desktop,tablet,mobile</async_load_device_type>
+        <async_load_trigger>viewport</async_load_trigger>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder_dimensions>{&#13;	"mobile": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	},&#13;	"desktop": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	},&#13;	"tablet": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	}&#13;}</placeholder_dimensions>
+        <placeholder_dimensions_script><![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]></placeholder_dimensions_script>
+        <placeholder_template>&lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&lt;div ng-if="options.maxRowCount === 10"&gt;&lt;/div&gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&gt;
+	&lt;div class="skeleton-container"&gt;
+	&lt;!-- Header Skeleton --&gt;
+	&lt;div class="skeleton-box skeleton-header"&gt;&lt;/div&gt;
+	&lt;!-- Body Skeleton --&gt;
+	&lt;div class="skeleton-box skeleton-line"&gt;&lt;/div&gt;
+	&lt;div class="skeleton-box skeleton-line small"&gt;&lt;/div&gt;
+	&lt;div class="skeleton-box skeleton-line medium"&gt;&lt;/div&gt;
+&lt;/div&gt;</placeholder_template>
+        <preserve_placeholder_size>false</preserve_placeholder_size>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7e71c97bc38147d0b68cd50d05013111</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 02:40:04</sys_created_on>
+        <sys_id>2bd1cd7fc38147d0b68cd50d050131d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Claim Pilot</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sp_instance_2bd1cd7fc38147d0b68cd50d050131d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 02:40:40</sys_updated_on>
+        <title>Claim Pilot</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<section style=\"font-family: Arial, Helvetica, sans-serif; background: #0b0f0c; color: #ffffff; border-radius: 0; overflow: hidden;\">\r\n<div style=\"padding: 44px 48px; background: linear-gradient(135deg, #0b0f0c 0%, #111812 55%, #1f2a1f 100%); border-bottom: 4px solid #86bc25;\">\r\n<div style=\"max-width: 1120px; margin: 0 auto;\">\r\n<div style=\"display: inline-block; padding: 6px 10px; border: 1px solid rgba(134,188,37,0.45); color: #c8f07a; font-size: 12px; font-weight: bold; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 18px;\">Insurance Claim Portal</div>\r\n<h1 style=\"margin: 0 0 14px; font-size: 42px; line-height: 1.08; font-weight: 800; color: #ffffff;\">Claim Pilot</h1>\r\n<p style=\"margin: 0 0 28px; max-width: 720px; font-size: 18px; line-height: 1.55; color: #d8ded8;\">Submit insurance claims, upload supporting documents, and track claim progress from one secure customer portal.</p>\r\n<div style=\"display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 34px;\"><a style=\"display: inline-block; background: #86bc25; color: #0b0f0c; padding: 13px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border-radius: 4px;\" href=\"?id=sc_cat_item&amp;sys_id=18a0bcf7c30147d0b68cd50d05013103\"> Submit a Claim </a> <a style=\"display: inline-block; background: transparent; color: #ffffff; padding: 12px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border: 1px solid rgba(255,255,255,0.42); border-radius: 4px;\" href=\"?id=claim_pilot_my_claims\"> View My Claims </a> <a style=\"display: inline-block; background: transparent; color: #d8ded8; padding: 12px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border: 1px solid rgba(134,188,37,0.45); border-radius: 4px;\" href=\"?id=claim_pilot_help\"> Get Help </a></div>\r\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px;\">\r\n<div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\">\r\n<div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\">01</div>\r\n<div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\">Submit Details</div>\r\n<div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\">Choose claim type, incident date, severity, region, and claim amount.</div>\r\n</div>\r\n<div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\">\r\n<div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\">02</div>\r\n<div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\">Attach Documents</div>\r\n<div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\">Add invoices, reports, photos, medical files, or other supporting evidence.</div>\r\n</div>\r\n<div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\">\r\n<div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\">03</div>\r\n<div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\">Track Progress</div>\r\n<div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\">Follow claim state from New to Review, Investigation, Approval, or Closure.</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</section>",
+		"displayValue": "<section style=\"font-family: Arial, Helvetica, sans-serif; background: #0b0f0c; color: #ffffff; border-radius: 0; overflow: hidden;\">\n<div style=\"padding: 44px 48px; background: linear-gradient(135deg, #0b0f0c 0%, #111812 55%, #1f2a1f 100%); border-bottom: 4px solid #86bc25;\">\n<div style=\"max-width: 1120px; margin: 0 auto;\">\n<div style=\"display: inline-block; padding: 6px 10px; border: 1px solid rgba(134,188,37,0.45); color: #c8f07a; font-size: 12px; font-weight: bold; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 18px;\">Insurance Claim Portal</div>\n<h1 style=\"margin: 0 0 14px; font-size: 42px; line-height: 1.08; font-weight: 800; color: #ffffff;\">Claim Pilot</h1>\n<p style=\"margin: 0 0 28px; max-width: 720px; font-size: 18px; line-height: 1.55; color: #d8ded8;\">Submit insurance claims, upload supporting documents, and track claim progress from one secure customer portal.</p>\n<div style=\"display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 34px;\"><a style=\"display: inline-block; background: #86bc25; color: #0b0f0c; padding: 13px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border-radius: 4px;\" href=\"?id=sc_cat_item&amp;sys_id=18a0bcf7c30147d0b68cd50d05013103\"> Submit a Claim </a> <a style=\"display: inline-block; background: transparent; color: #ffffff; padding: 12px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border: 1px solid rgba(255,255,255,0.42); border-radius: 4px;\" href=\"?id=claim_pilot_my_claims\"> View My Claims </a> <a style=\"display: inline-block; background: transparent; color: #d8ded8; padding: 12px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border: 1px solid rgba(134,188,37,0.45); border-radius: 4px;\" href=\"?id=claim_pilot_help\"> Get Help </a></div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px;\">\n<div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\">\n<div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\">01</div>\n<div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\">Submit Details</div>\n<div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\">Choose claim type, incident date, severity, region, and claim amount.</div>\n</div>\n<div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\">\n<div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\">02</div>\n<div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\">Attach Documents</div>\n<div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\">Add invoices, reports, photos, medical files, or other supporting evidence.</div>\n</div>\n<div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\">\n<div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\">03</div>\n<div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\">Track Progress</div>\n<div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\">Follow claim state from New to Review, Investigation, Approval, or Closure.</div>\n</div>\n</div>\n</div>\n</div>\n</section>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=2bd1cd7fc38147d0b68cd50d050131d0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</application>
+        <file_path/>
+        <instance_id>0a147c7cebf022943a48f459bad0cd68</instance_id>
+        <instance_name>dev318981</instance_name>
+        <name>sp_instance_2bd1cd7fc38147d0b68cd50d050131d0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder_dimensions&gt;{&amp;#13;	"mobile": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"desktop": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"tablet": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	}&amp;#13;}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;7e71c97bc38147d0b68cd50d05013111&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-31 02:40:04&lt;/sys_created_on&gt;&lt;sys_id&gt;2bd1cd7fc38147d0b68cd50d050131d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Claim Pilot&lt;/sys_name&gt;&lt;sys_package display_value="Claim Pilot" source="x_1970973_claim_0"&gt;dfb2b857c38d03d0b68cd50d050131f1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Claim Pilot"&gt;dfb2b857c38d03d0b68cd50d050131f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_2bd1cd7fc38147d0b68cd50d050131d0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-31 02:40:40&lt;/sys_updated_on&gt;&lt;title&gt;Claim Pilot&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;section style=\"font-family: Arial, Helvetica, sans-serif; background: #0b0f0c; color: #ffffff; border-radius: 0; overflow: hidden;\"&gt;\r\n&lt;div style=\"padding: 44px 48px; background: linear-gradient(135deg, #0b0f0c 0%, #111812 55%, #1f2a1f 100%); border-bottom: 4px solid #86bc25;\"&gt;\r\n&lt;div style=\"max-width: 1120px; margin: 0 auto;\"&gt;\r\n&lt;div style=\"display: inline-block; padding: 6px 10px; border: 1px solid rgba(134,188,37,0.45); color: #c8f07a; font-size: 12px; font-weight: bold; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 18px;\"&gt;Insurance Claim Portal&lt;/div&gt;\r\n&lt;h1 style=\"margin: 0 0 14px; font-size: 42px; line-height: 1.08; font-weight: 800; color: #ffffff;\"&gt;Claim Pilot&lt;/h1&gt;\r\n&lt;p style=\"margin: 0 0 28px; max-width: 720px; font-size: 18px; line-height: 1.55; color: #d8ded8;\"&gt;Submit insurance claims, upload supporting documents, and track claim progress from one secure customer portal.&lt;/p&gt;\r\n&lt;div style=\"display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 34px;\"&gt;&lt;a style=\"display: inline-block; background: #86bc25; color: #0b0f0c; padding: 13px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border-radius: 4px;\" href=\"?id=sc_cat_item&amp;amp;sys_id=18a0bcf7c30147d0b68cd50d05013103\"&gt; Submit a Claim &lt;/a&gt; &lt;a style=\"display: inline-block; background: transparent; color: #ffffff; padding: 12px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border: 1px solid rgba(255,255,255,0.42); border-radius: 4px;\" href=\"?id=claim_pilot_my_claims\"&gt; View My Claims &lt;/a&gt; &lt;a style=\"display: inline-block; background: transparent; color: #d8ded8; padding: 12px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border: 1px solid rgba(134,188,37,0.45); border-radius: 4px;\" href=\"?id=claim_pilot_help\"&gt; Get Help &lt;/a&gt;&lt;/div&gt;\r\n&lt;div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px;\"&gt;\r\n&lt;div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\"&gt;\r\n&lt;div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\"&gt;01&lt;/div&gt;\r\n&lt;div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\"&gt;Submit Details&lt;/div&gt;\r\n&lt;div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\"&gt;Choose claim type, incident date, severity, region, and claim amount.&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\"&gt;\r\n&lt;div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\"&gt;02&lt;/div&gt;\r\n&lt;div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\"&gt;Attach Documents&lt;/div&gt;\r\n&lt;div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\"&gt;Add invoices, reports, photos, medical files, or other supporting evidence.&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\"&gt;\r\n&lt;div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\"&gt;03&lt;/div&gt;\r\n&lt;div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\"&gt;Track Progress&lt;/div&gt;\r\n&lt;div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\"&gt;Follow claim state from New to Review, Investigation, Approval, or Closure.&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;/section&gt;",
+		"displayValue": "&lt;section style=\"font-family: Arial, Helvetica, sans-serif; background: #0b0f0c; color: #ffffff; border-radius: 0; overflow: hidden;\"&gt;\n&lt;div style=\"padding: 44px 48px; background: linear-gradient(135deg, #0b0f0c 0%, #111812 55%, #1f2a1f 100%); border-bottom: 4px solid #86bc25;\"&gt;\n&lt;div style=\"max-width: 1120px; margin: 0 auto;\"&gt;\n&lt;div style=\"display: inline-block; padding: 6px 10px; border: 1px solid rgba(134,188,37,0.45); color: #c8f07a; font-size: 12px; font-weight: bold; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 18px;\"&gt;Insurance Claim Portal&lt;/div&gt;\n&lt;h1 style=\"margin: 0 0 14px; font-size: 42px; line-height: 1.08; font-weight: 800; color: #ffffff;\"&gt;Claim Pilot&lt;/h1&gt;\n&lt;p style=\"margin: 0 0 28px; max-width: 720px; font-size: 18px; line-height: 1.55; color: #d8ded8;\"&gt;Submit insurance claims, upload supporting documents, and track claim progress from one secure customer portal.&lt;/p&gt;\n&lt;div style=\"display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 34px;\"&gt;&lt;a style=\"display: inline-block; background: #86bc25; color: #0b0f0c; padding: 13px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border-radius: 4px;\" href=\"?id=sc_cat_item&amp;amp;sys_id=18a0bcf7c30147d0b68cd50d05013103\"&gt; Submit a Claim &lt;/a&gt; &lt;a style=\"display: inline-block; background: transparent; color: #ffffff; padding: 12px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border: 1px solid rgba(255,255,255,0.42); border-radius: 4px;\" href=\"?id=claim_pilot_my_claims\"&gt; View My Claims &lt;/a&gt; &lt;a style=\"display: inline-block; background: transparent; color: #d8ded8; padding: 12px 18px; font-size: 15px; font-weight: bold; text-decoration: none; border: 1px solid rgba(134,188,37,0.45); border-radius: 4px;\" href=\"?id=claim_pilot_help\"&gt; Get Help &lt;/a&gt;&lt;/div&gt;\n&lt;div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px;\"&gt;\n&lt;div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\"&gt;\n&lt;div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\"&gt;01&lt;/div&gt;\n&lt;div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\"&gt;Submit Details&lt;/div&gt;\n&lt;div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\"&gt;Choose claim type, incident date, severity, region, and claim amount.&lt;/div&gt;\n&lt;/div&gt;\n&lt;div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\"&gt;\n&lt;div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\"&gt;02&lt;/div&gt;\n&lt;div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\"&gt;Attach Documents&lt;/div&gt;\n&lt;div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\"&gt;Add invoices, reports, photos, medical files, or other supporting evidence.&lt;/div&gt;\n&lt;/div&gt;\n&lt;div style=\"background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 16px; border-radius: 6px;\"&gt;\n&lt;div style=\"color: #86bc25; font-size: 13px; font-weight: bold; margin-bottom: 6px;\"&gt;03&lt;/div&gt;\n&lt;div style=\"font-size: 16px; font-weight: bold; margin-bottom: 5px;\"&gt;Track Progress&lt;/div&gt;\n&lt;div style=\"font-size: 13px; line-height: 1.45; color: #cfd6cf;\"&gt;Follow claim state from New to Review, Investigation, Approval, or Closure.&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/section&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2bd1cd7fc38147d0b68cd50d050131d0"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>448273644</payload_hash>
+        <record_name>Claim Pilot</record_name>
+        <reverted_from/>
+        <source>3be87e23c34107d0b68cd50d05013153</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 02:40:40</sys_created_on>
+        <sys_id>18020dffc38147d0b68cd50d050131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e7be7abd70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 02:40:40</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>54020dff948147d0293a9045a21adffc</update_guid>
+        <update_guid_history>54020dff948147d0293a9045a21adffc:448273644,abd109ff858147d031be412be491b039:-214119985</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Claim Pilot">0f124133c3c147d0b68cd50d05013131</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-31 02:41:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>611a24f9491f4fc9be7bd6530a0a3e61</sys_id>
+        <sys_metadata>2bd1cd7fc38147d0b68cd50d050131d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Pilot</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_scope_delete display_value="">2d460c608bf64b0094b6c182c7dc02b9</sys_scope_delete>
+        <sys_update_name>sp_instance_2bd1cd7fc38147d0b68cd50d050131d0</sys_update_name>
+        <sys_update_version display_value="sp_instance_2bd1cd7fc38147d0b68cd50d050131d0">18020dffc38147d0b68cd50d050131fd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-31 02:41:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
