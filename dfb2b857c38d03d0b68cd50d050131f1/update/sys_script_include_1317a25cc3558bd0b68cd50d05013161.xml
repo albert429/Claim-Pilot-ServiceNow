@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1970973_claim_0.ClaimUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ClaimUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ClaimUtils = Class.create();
+ClaimUtils.prototype = {
+    initialize: function () {},
+
+    HIGH_VALUE_THRESHOLD: 10000,
+    FRAUD_AMOUNT_THRESHOLD: 50000, 
+    DUPLICATE_WINDOW_DAYS: 30,
+
+    ROUTING: {
+        medical:  'Medical Team',
+        car:      'Vehicle Investigation Team',
+        property: 'Property Team'
+    },
+
+    /**
+     * Resolve assignment group sys_id for a claim type.
+     * Region is available for future sub-routing; kept simple here.
+     */
+    getAssignmentGroup: function (claimType, region) {
+        var groupName = this.ROUTING[claimType] || 'Claims Management';
+        var grp = new GlideRecord('sys_user_group');
+        if (grp.get('name', groupName)) {
+            return grp.getUniqueValue();
+        }
+        gs.warn('[ClaimUtils] Assignment group not found: ' + groupName);
+        return '';
+    },
+
+    /**
+     * Transparent priority score (0-100) -> Task priority (1=Critical..4=Low).
+     * Inputs: claim_amount, customer_type, incident_severity.
+     */
+    calculatePriority: function (amount, customerType, severity) {
+        amount = parseFloat(amount) || 0;
+
+        var sev = { critical: 40, high: 30, medium: 20, low: 10 };
+        var cust = { vip: 20, corporate: 15, standard: 5 };
+
+        var amountScore = (amount >= 50000) ? 40 :
+                          (amount >= 10000) ? 30 :
+                          (amount >= 5000)  ? 20 : 10;
+
+        var score = (sev[severity] || 10) +
+                    (cust[customerType] || 5) +
+                    amountScore;
+
+        if (score >= 80) return 1; // Critical
+        if (score >= 60) return 2; // High
+        if (score >= 40) return 3; // Moderate
+        return 4;                  // Low
+    },
+
+    isHighValue: function (amount) {
+        return (parseFloat(amount) || 0) >= this.HIGH_VALUE_THRESHOLD;
+    },
+
+    /**
+     * Fraud heuristics: very high amount OR duplicate claim by same
+     * customer + type + amount inside the window. Returns {fraud, reason}.
+     */
+    detectFraud: function (claimGR) {
+        var reasons = [];
+        var amount = parseFloat(claimGR.getValue('claim_amount')) || 0;
+
+        if (amount >= this.FRAUD_AMOUNT_THRESHOLD) {
+            reasons.push('Claim amount (' + amount + ') exceeds the high-value fraud threshold.');
+        }
+
+        var dup = new GlideRecord('x_1970973_claim_0_insurance_claims');
+        dup.addQuery('customer', claimGR.getValue('customer'));
+        dup.addQuery('claim_type', claimGR.getValue('claim_type'));
+        dup.addQuery('claim_amount', claimGR.getValue('claim_amount'));
+        dup.addQuery('sys_id', '!=', claimGR.getUniqueValue());
+        var since = new GlideDateTime();
+        since.addDaysUTC(-this.DUPLICATE_WINDOW_DAYS);
+        dup.addQuery('sys_created_on', '>=', since.getValue());
+        dup.query();
+        if (dup.next()) {
+            reasons.push('Possible duplicate of claim ' + dup.getDisplayValue('number') + '.');
+        }
+
+        return { fraud: reasons.length > 0, reason: reasons.join(' ') };
+    },
+
+    type: 'ClaimUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-01 23:31:34</sys_created_on>
+        <sys_id>1317a25cc3558bd0b68cd50d05013161</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ClaimUtils</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sys_script_include_1317a25cc3558bd0b68cd50d05013161</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-01 23:31:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

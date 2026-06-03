@@ -3,7 +3,7 @@
         <inactive>false</inactive>
         <order>7</order>
         <published_ref/>
-        <question display_value="Short description">0da0307bc30147d0b68cd50d0501319d</question>
+        <question display_value="Claim Summary">0da0307bc30147d0b68cd50d0501319d</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-31 01:24:50</sys_created_on>
