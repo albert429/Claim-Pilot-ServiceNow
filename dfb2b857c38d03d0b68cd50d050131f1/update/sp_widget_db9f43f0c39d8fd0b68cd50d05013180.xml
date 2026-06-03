@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+  var c = this;
+  c.newComment = '';
+  c.addComment = function() {
+    if (!c.newComment.trim()) return;
+    c.data.action = 'addComment';
+    c.data.text = c.newComment;
+    c.server.update().then(function() { c.newComment = ''; c.data.action = ''; });
+  };
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.cp-detail { max-width:1000px; margin:0 auto; padding:28px; }
+.cp-back { display:inline-block; color:var(--cp-muted); text-decoration:none; font-size:13px; font-weight:700; margin-bottom:18px; }
+.cp-back:hover { color:var(--cp-navy); }
+.cp-detail__head { display:flex; justify-content:space-between; align-items:flex-start; gap:16px; margin-bottom:18px; }
+.cp-detail__num { font-size:30px; font-weight:850; margin:0; letter-spacing:-.01em; }
+.cp-detail__summary { color:var(--cp-muted); margin:6px 0 0; }
+.cp-alert { background:rgba(197,160,101,.12); border:1px solid rgba(197,160,101,.5); color:#8a6d2f;
+  padding:12px 16px; border-radius:12px; margin-bottom:18px; font-size:14px; }
+
+/* ⭐ lifecycle tracker */
+.cp-track { display:flex; padding:26px 22px; margin-bottom:20px; }
+.cp-track__step { flex:1; text-align:center; position:relative; }
+.cp-track__step::before { content:""; position:absolute; top:11px; left:-50%; width:100%; height:2px; background:var(--cp-line); z-index:0; }
+.cp-track__step:first-child::before { display:none; }
+.cp-track__step.is-done::before, .cp-track__step.is-current::before { background:var(--cp-teal); }
+.cp-track__dot { width:24px; height:24px; border-radius:50%; background:#fff; border:2px solid var(--cp-line); margin:0 auto 10px; position:relative; z-index:1; transition:.2s; }
+.cp-track__step.is-done .cp-track__dot { background:var(--cp-teal); border-color:var(--cp-teal); }
+.cp-track__step.is-current .cp-track__dot { border-color:var(--cp-gold); box-shadow:0 0 0 4px rgba(197,160,101,.25); }
+.cp-track__step.is-danger.is-current .cp-track__dot { background:var(--cp-danger); border-color:var(--cp-danger); box-shadow:0 0 0 4px rgba(192,57,43,.2); }
+.cp-track__label { font-size:12px; font-weight:750; color:var(--cp-muted); }
+.cp-track__step.is-done .cp-track__label, .cp-track__step.is-current .cp-track__label { color:var(--cp-navy); }
+
+.cp-detail__grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:20px; }
+.cp-panel { padding:22px; }
+.cp-panel__h { font-size:13px; font-weight:850; text-transform:uppercase; letter-spacing:.08em; color:var(--cp-muted); margin:0 0 14px; }
+.cp-dl &gt; div { display:flex; justify-content:space-between; padding:9px 0; border-bottom:1px solid var(--cp-line); font-size:14px; }
+.cp-dl &gt; div:last-child { border-bottom:none; }
+.cp-dl dt { color:var(--cp-muted); margin:0; font-weight:600; }
+.cp-dl dd { margin:0; font-weight:750; text-align:right; }
+.cp-files,.cp-tasks,.cp-feed { list-style:none; margin:0; padding:0; }
+.cp-files li a { color:var(--cp-navy); font-weight:700; text-decoration:none; }
+.cp-files li a:hover { color:var(--cp-gold); }
+.cp-tasks li { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:12px 0; border-bottom:1px solid var(--cp-line); }
+.cp-tasks li:last-child { border-bottom:none; }
+.cp-tasks__sum { font-weight:700; font-size:14px; }
+.cp-tasks__meta { color:var(--cp-muted); font-size:12px; text-transform:capitalize; margin-top:2px; }
+.cp-comment { display:flex; gap:10px; margin-bottom:18px; }
+.cp-comment textarea { flex:1; min-height:46px; padding:12px 14px; border:1px solid var(--cp-line); border-radius:10px; font-family:var(--cp-font); resize:vertical; }
+.cp-comment textarea:focus { outline:none; border-color:var(--cp-gold); }
+.cp-feed li { padding:12px 0; border-bottom:1px solid var(--cp-line); }
+.cp-feed li:last-child { border-bottom:none; }
+.cp-feed__meta { color:var(--cp-muted); font-size:12px; margin-bottom:4px; }
+.cp-feed__text { font-size:14px; white-space:pre-wrap; }
+.cp-notfound { max-width:520px; margin:60px auto; text-align:center; }
+@media (max-width:760px){ .cp-detail__grid{ grid-template-columns:1fr; } .cp-track{ overflow-x:auto; } }</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>claim_pilot_claim_detail</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Claim Pilot Claim Detail</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  var sysId = (input && input.sys_id) ? input.sys_id : $sp.getParameter('sys_id');
+  data.sys_id = sysId;
+
+  var claim = new GlideRecord('x_1970973_claim_0_insurance_claims');
+  if (!sysId || !claim.get(sysId)) { data.notFound = true; return; }   // ACL also enforced here
+
+  // --- interactive: customer adds a message ---
+  if (input && input.action === 'addComment' && input.text) {
+    if (claim.getValue('customer') == gs.getUserID()) {
+      claim.comments = input.text;   // writes a journal entry the team sees
+      claim.update();
+      claim.get(sysId);
+    }
+  }
+
+  var STATE = {
+    '1':{label:'New',cls:'cp-badge--new'}, '2':{label:'Under Review',cls:'cp-badge--review'},
+    '3':{label:'Investigation',cls:'cp-badge--invest'}, '4':{label:'Approved',cls:'cp-badge--approved'},
+    '5':{label:'Rejected',cls:'cp-badge--rejected'}, '7':{label:'Closed',cls:'cp-badge--closed'}
+  };
+  var st = claim.getValue('state') || '1';
+  var m = STATE[st] || STATE['1'];
+
+  data.claim = {
+    number: claim.getValue('number'),
+    type: claim.getDisplayValue('claim_type'),
+    amount: claim.getDisplayValue('claim_amount'),
+    approved: claim.getDisplayValue('approved_amount'),
+    region: claim.getDisplayValue('region'),
+    severity: claim.getDisplayValue('incident_severity'),
+    incidentDate: claim.getDisplayValue('incident_date'),
+    summary: claim.getValue('short_description'),
+    rejection: claim.getValue('rejection_reason'),
+    missingDocs: claim.getValue('missing_documents') == '1' || claim.getValue('missing_documents') == 'true',
+    stateLabel: m.label, stateClass: m.cls
+  };
+
+  // --- lifecycle tracker steps ---
+  var s = parseInt(st), idx = 0;
+  if (s===2) idx=1; else if (s===3) idx=2; else if (s===4||s===5) idx=3; else if (s===7) idx=4;
+  var decision = (s===5) ? 'Rejected' : 'Approved';
+  data.steps = [
+    {label:'New',           done:idx>0,  current:idx===0, danger:false},
+    {label:'Under Review',  done:idx>1,  current:idx===1, danger:false},
+    {label:'Investigation', done:idx>2,  current:idx===2, danger:false},
+    {label:decision,        done:idx>3,  current:idx===3, danger:(s===5)},
+    {label:'Closed',        done:idx>=4, current:idx===4, danger:false}
+  ];
+
+  // --- tasks ---
+  data.tasks = [];
+  var tg = new GlideRecord('x_1970973_claim_0_claim_tasks');
+  tg.addQuery('parent_claim', sysId);
+  tg.orderBy('sys_created_on');
+  tg.setLimit(100);
+  tg.query();
+  while (tg.next()) {
+    var tdone = tg.getValue('state') == '3';
+    data.tasks.push({
+      number: tg.getValue('number'),
+      type: tg.getDisplayValue('task_type'),
+      summary: tg.getValue('short_description'),
+      state: tg.getDisplayValue('state'),
+      cls: tdone ? 'cp-badge--approved' : (tg.getValue('state')=='2' ? 'cp-badge--review' : 'cp-badge--new')
+    });
+  }
+
+  // --- attachments ---
+  data.attachments = [];
+  var ag = new GlideRecord('sys_attachment');
+  ag.addQuery('table_name', 'x_1970973_claim_0_insurance_claims');
+  ag.addQuery('table_sys_id', sysId);
+  ag.setLimit(50);
+  ag.query();
+  while (ag.next()) data.attachments.push({ sys_id: ag.getUniqueValue(), name: ag.getValue('file_name') });
+
+  // --- activity (customer-visible comments) ---
+  data.activity = [];
+  var jg = new GlideRecord('sys_journal_field');
+  jg.addQuery('element_id', sysId);
+  jg.addQuery('element', 'comments');
+  jg.orderByDesc('sys_created_on');
+  jg.setLimit(50);
+  jg.query();
+  while (jg.next()) data.activity.push({
+    value: jg.getValue('value'), by: jg.getDisplayValue('sys_created_by'), on: jg.getDisplayValue('sys_created_on')
+  });
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 15:33:17</sys_created_on>
+        <sys_id>db9f43f0c39d8fd0b68cd50d05013180</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Claim Pilot Claim Detail</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sp_widget_db9f43f0c39d8fd0b68cd50d05013180</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 15:33:59</sys_updated_on>
+        <template><![CDATA[<div class="cp-detail" ng-if="!c.data.notFound">
+  <a class="cp-back" href="?id=claim_pilot_my_claims">← All claims</a>
+
+  <div class="cp-detail__head">
+    <div>
+      <div class="cp-eyebrow">{{c.data.claim.type}} insurance</div>
+      <h1 class="cp-detail__num">{{c.data.claim.number}}</h1>
+      <p class="cp-detail__summary">{{c.data.claim.summary}}</p>
+    </div>
+    <span class="cp-badge" ng-class="c.data.claim.stateClass">{{c.data.claim.stateLabel}}</span>
+  </div>
+
+  <div class="cp-alert" ng-if="c.data.claim.missingDocs">
+    <strong>Documents needed.</strong> Please upload the supporting documents requested by the claim team.
+  </div>
+
+  <!-- ⭐ signature lifecycle tracker -->
+  <div class="cp-card cp-track">
+    <div class="cp-track__step" ng-repeat="s in c.data.steps track by $index"
+         ng-class="{'is-done':s.done,'is-current':s.current,'is-danger':s.danger}">
+      <div class="cp-track__dot"></div>
+      <div class="cp-track__label">{{s.label}}</div>
+    </div>
+  </div>
+
+  <div class="cp-detail__grid">
+    <div class="cp-card cp-panel">
+      <h3 class="cp-panel__h">Claim details</h3>
+      <dl class="cp-dl">
+        <div><dt>Amount</dt><dd>{{c.data.claim.amount}}</dd></div>
+        <div ng-if="c.data.claim.approved"><dt>Approved amount</dt><dd>{{c.data.claim.approved}}</dd></div>
+        <div><dt>Region</dt><dd>{{c.data.claim.region}}</dd></div>
+        <div><dt>Severity</dt><dd>{{c.data.claim.severity}}</dd></div>
+        <div><dt>Incident date</dt><dd>{{c.data.claim.incidentDate}}</dd></div>
+        <div ng-if="c.data.claim.rejection"><dt>Rejection reason</dt><dd>{{c.data.claim.rejection}}</dd></div>
+      </dl>
+      <h3 class="cp-panel__h" style="margin-top:22px">Documents</h3>
+      <ul class="cp-files" ng-if="c.data.attachments.length">
+        <li ng-repeat="a in c.data.attachments track by a.sys_id"><a href="/sys_attachment.do?sys_id={{a.sys_id}}">{{a.name}}</a></li>
+      </ul>
+      <p class="cp-sub" ng-if="!c.data.attachments.length">No documents uploaded.</p>
+    </div>
+
+    <div class="cp-card cp-panel">
+      <h3 class="cp-panel__h">Progress tasks</h3>
+      <ul class="cp-tasks" ng-if="c.data.tasks.length">
+        <li ng-repeat="t in c.data.tasks track by t.number">
+          <div>
+            <div class="cp-tasks__sum">{{t.summary}}</div>
+            <div class="cp-tasks__meta">{{t.type}} · {{t.number}}</div>
+          </div>
+          <span class="cp-badge" ng-class="t.cls">{{t.state}}</span>
+        </li>
+      </ul>
+      <p class="cp-sub" ng-if="!c.data.tasks.length">No tasks yet.</p>
+    </div>
+  </div>
+
+  <div class="cp-card cp-panel">
+    <h3 class="cp-panel__h">Activity</h3>
+    <div class="cp-comment">
+      <textarea ng-model="c.newComment" placeholder="Add a message to the claim team…"></textarea>
+      <button class="cp-btn cp-btn--primary" ng-click="c.addComment()">Send</button>
+    </div>
+    <ul class="cp-feed" ng-if="c.data.activity.length">
+      <li ng-repeat="a in c.data.activity track by $index">
+        <div class="cp-feed__meta">{{a.by}} · {{a.on}}</div>
+        <div class="cp-feed__text">{{a.value}}</div>
+      </li>
+    </ul>
+    <p class="cp-sub" ng-if="!c.data.activity.length">No messages yet.</p>
+  </div>
+</div>
+
+<div class="cp-notfound" ng-if="c.data.notFound">
+  <h2>Claim not found</h2>
+  <p>This claim doesn't exist or you don't have access to it.</p>
+  <a class="cp-btn cp-btn--secondary" href="?id=claim_pilot_my_claims">Back to My Claims</a>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>db9f43f0c39d8fd0b68cd50d05013180</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 15:33:18</sys_created_on>
+        <sys_id>539f43f0c39d8fd0b68cd50d05013185</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 15:33:18</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

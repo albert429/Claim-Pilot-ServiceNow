@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.cp-header {&#13;
+  display: flex; align-items: center; gap: 28px;&#13;
+  padding: 0 28px; height: 64px;&#13;
+  background: var(--cp-navy);&#13;
+  border-bottom: 2px solid var(--cp-gold);&#13;
+}&#13;
+.cp-header__brand img { height: 28px; }&#13;
+.cp-header__nav { display: flex; gap: 22px; margin-left: 12px; }&#13;
+.cp-header__nav a {&#13;
+  color: #cdd7e4; font-weight: 650; font-size: 14px; text-decoration: none;&#13;
+  padding: 6px 0; border-bottom: 2px solid transparent; transition: .15s;&#13;
+}&#13;
+.cp-header__nav a:hover { color: #fff; border-bottom-color: var(--cp-gold); }&#13;
+.cp-header__user { margin-left: auto; display: flex; align-items: center; gap: 14px; color: #cdd7e4; font-size: 13px; }&#13;
+.cp-header__user a { color: var(--cp-gold); text-decoration: none; font-weight: 700; }&#13;
+@media (max-width: 760px) {&#13;
+  .cp-header { height: auto; flex-wrap: wrap; padding: 12px 16px; gap: 12px; }&#13;
+  .cp-header__nav { order: 3; width: 100%; overflow-x: auto; }&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Claim Pilot Header</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 14:13:57</sys_created_on>
+        <sys_id>f74d727cc3d98fd0b68cd50d050131b2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Claim Pilot Header</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sp_header_footer_f74d727cc3d98fd0b68cd50d050131b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 15:45:39</sys_updated_on>
+        <template><![CDATA[<header class="cp-header">
+  <a class="cp-header__brand" href="?id=claim_pilot_home">
+    <img src="/x_1970973_claim_0.claim-pilot-logo-only.png" alt="Claim Pilot">
+  </a>
+  <nav class="cp-header__nav">
+    <a href="?id=claim_pilot_home">Home</a>
+    <a href="?id=sc_cat_item&sys_id=18a0bcf7c30147d0b68cd50d05013103">Submit a Claim</a>
+    <a href="?id=claim_pilot_my_claims">My Claims</a>
+    <a href="?id=claim_pilot_help_faq">Help</a>
+  </nav>
+  <div class="cp-header__user" ng-if="::user">
+    <span>{{::user.first_name}} {{::user.last_name}}</span>
+    <a href="/logout_redirect.do" title="Sign out">Sign out</a>
+  </div>
+</header>]]></template>
+    </sp_header_footer>
+</record_update>

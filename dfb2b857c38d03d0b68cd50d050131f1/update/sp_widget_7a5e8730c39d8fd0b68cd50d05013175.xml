@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+  var c = this;
+  c.search = ''; c.stateFilter = ''; c.typeFilter = '';
+  c.matches = function(item) {
+    if (c.stateFilter && item.state !== c.stateFilter) return false;
+    if (c.typeFilter && item.typeVal !== c.typeFilter) return false;
+    if (c.search) {
+      var q = c.search.toLowerCase();
+      return (item.number||'').toLowerCase().indexOf(q) > -1 ||
+             (item.type||'').toLowerCase().indexOf(q) > -1;
+    }
+    return true;
+  };
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.cp-claims { max-width:1120px; margin:0 auto; padding:32px 28px; }
+.cp-claims__head { display:flex; justify-content:space-between; align-items:flex-end; gap:16px; margin-bottom:22px; }
+.cp-claims__head--mini { align-items:center; margin-bottom:14px; }
+.cp-claims__all { color:var(--cp-gold); text-decoration:none; font-weight:750; font-size:14px; }
+.cp-claims__filters { display:flex; gap:12px; margin-bottom:22px; flex-wrap:wrap; }
+.cp-input { height:42px; padding:0 14px; border:1px solid var(--cp-line); border-radius:10px;
+  background:#fff; color:var(--cp-navy); font-size:14px; min-width:160px; }
+.cp-input:focus { outline:none; border-color:var(--cp-gold); }
+.cp-claims__grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; }
+.cp-claim { display:block; padding:18px; text-decoration:none; color:inherit; transition:.18s ease; }
+.cp-claim:hover { transform:translateY(-2px); border-color:rgba(197,160,101,.55); box-shadow:0 10px 30px rgba(10,37,64,.10); }
+.cp-claim__top { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+.cp-claim__num { font-weight:850; letter-spacing:.01em; }
+.cp-claim__type { color:var(--cp-muted); font-size:13px; text-transform:capitalize; }
+.cp-claim__amount { font-size:24px; font-weight:850; margin-top:6px; letter-spacing:-.01em; }
+.cp-claim__foot { margin-top:14px; padding-top:12px; border-top:1px solid var(--cp-line); color:var(--cp-muted); font-size:12px; }
+.cp-empty { text-align:center; padding:48px 20px; color:var(--cp-muted); grid-column:1/-1; }
+.cp-empty p { margin-bottom:14px; }</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>claim_pilot_my_claims</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Claim Pilot My Claims</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  var STATE = {
+    '1': {label:'New',           cls:'cp-badge--new'},
+    '2': {label:'Under Review',  cls:'cp-badge--review'},
+    '3': {label:'Investigation', cls:'cp-badge--invest'},
+    '4': {label:'Approved',      cls:'cp-badge--approved'},
+    '5': {label:'Rejected',      cls:'cp-badge--rejected'},
+    '7': {label:'Closed',        cls:'cp-badge--closed'}
+  };
+  data.compact = options.compact === 'true' || options.compact === true;
+  var limit = parseInt(options.limit) || 0;
+
+  data.claims = [];
+  var gr = new GlideRecord('x_1970973_claim_0_insurance_claims');
+  gr.addQuery('customer', gs.getUserID());          // scope to me (defense-in-depth)
+  gr.orderByDesc('sys_created_on');
+  gr.setLimit(200);                                 // never run unbounded queries
+  gr.query();
+  while (gr.next()) {
+    if (limit && data.claims.length >= limit) break;
+    var st = gr.getValue('state') || '1';
+    var m = STATE[st] || STATE['1'];
+    data.claims.push({
+      sys_id:     gr.getUniqueValue(),
+      number:     gr.getValue('number'),
+      type:       gr.getDisplayValue('claim_type'),
+      typeVal:    gr.getValue('claim_type'),
+      amount:     gr.getDisplayValue('claim_amount'),
+      state:      st,
+      stateLabel: m.label,
+      stateClass: m.cls,
+      created:    gr.getDisplayValue('sys_created_on')
+    });
+  }
+  data.count = data.claims.length;
+  data.submitHref = '?id=sc_cat_item&sys_id=18a0bcf7c30147d0b68cd50d05013103';
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 15:27:48</sys_created_on>
+        <sys_id>7a5e8730c39d8fd0b68cd50d05013175</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Claim Pilot My Claims</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sp_widget_7a5e8730c39d8fd0b68cd50d05013175</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 15:29:15</sys_updated_on>
+        <template><![CDATA[<div class="cp-claims">
+  <div class="cp-claims__head" ng-if="!c.data.compact">
+    <div>
+      <div class="cp-eyebrow">Your claims</div>
+      <h2 class="cp-h2">My Claims</h2>
+      <p class="cp-sub">{{c.data.count}} claim{{c.data.count===1?'':'s'}} on file</p>
+    </div>
+    <a class="cp-btn cp-btn--primary" href="{{c.data.submitHref}}">Submit a Claim</a>
+  </div>
+
+  <div class="cp-claims__head cp-claims__head--mini" ng-if="c.data.compact">
+    <h2 class="cp-h2" style="font-size:20px">Recent claims</h2>
+    <a class="cp-claims__all" href="?id=claim_pilot_my_claims">View all →</a>
+  </div>
+
+  <div class="cp-claims__filters" ng-if="!c.data.compact">
+    <input class="cp-input" ng-model="c.search" placeholder="Search number or type…">
+    <select class="cp-input" ng-model="c.stateFilter">
+      <option value="">All states</option>
+      <option value="1">New</option><option value="2">Under Review</option>
+      <option value="3">Investigation</option><option value="4">Approved</option>
+      <option value="5">Rejected</option><option value="7">Closed</option>
+    </select>
+    <select class="cp-input" ng-model="c.typeFilter">
+      <option value="">All types</option>
+      <option value="car">Car</option><option value="medical">Medical</option><option value="property">Property</option>
+    </select>
+  </div>
+
+  <div class="cp-claims__grid">
+    <a class="cp-claim cp-card" ng-repeat="cl in c.data.claims | filter:c.matches track by cl.sys_id"
+       href="?id=claim_pilot_claim_detail&sys_id={{cl.sys_id}}">
+      <div class="cp-claim__top">
+        <span class="cp-claim__num">{{cl.number}}</span>
+        <span class="cp-badge" ng-class="cl.stateClass">{{cl.stateLabel}}</span>
+      </div>
+      <div class="cp-claim__type">{{cl.type}} insurance</div>
+      <div class="cp-claim__amount">{{cl.amount}}</div>
+      <div class="cp-claim__foot">Submitted {{cl.created}}</div>
+    </a>
+  </div>
+
+  <div class="cp-empty" ng-if="(c.data.claims | filter:c.matches).length === 0">
+    <p>No claims to show yet.</p>
+    <a class="cp-btn cp-btn--secondary" href="{{c.data.submitHref}}">Submit your first claim</a>
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>7a5e8730c39d8fd0b68cd50d05013175</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 15:27:48</sys_created_on>
+        <sys_id>fe5e8730c39d8fd0b68cd50d05013179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 15:27:48</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

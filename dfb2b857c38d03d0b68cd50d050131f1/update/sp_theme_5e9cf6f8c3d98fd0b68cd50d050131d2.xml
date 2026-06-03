@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>:root {&#13;
+  --cp-navy:   #0A2540;&#13;
+  --cp-gold:   #C5A065;&#13;
+  --cp-teal:   #14B8A6;&#13;
+  --cp-bg:     #F7F9FC;&#13;
+  --cp-line:   #DDE5EE;&#13;
+  --cp-muted:  #5E6D7E;&#13;
+  --cp-danger: #C0392B;&#13;
+  --cp-card-shadow: 0 1px 2px rgba(10,37,64,.04), 0 8px 24px rgba(10,37,64,.06);&#13;
+  --cp-font: "Aptos","Segoe UI",system-ui,-apple-system,sans-serif;&#13;
+}&#13;
+&#13;
+body, .sp-page-root {&#13;
+  background: var(--cp-bg);&#13;
+  color: var(--cp-navy);&#13;
+  font-family: var(--cp-font);&#13;
+}&#13;
+&#13;
+/* ---- Buttons ---- */&#13;
+.cp-btn {&#13;
+  display: inline-flex; align-items: center; justify-content: center;&#13;
+  min-height: 44px; padding: 0 22px; border-radius: 10px;&#13;
+  font-weight: 750; font-size: 14px; text-decoration: none;&#13;
+  border: 1px solid transparent; cursor: pointer; transition: .18s ease;&#13;
+}&#13;
+.cp-btn--primary { background: var(--cp-gold); color: #1c1404; }&#13;
+.cp-btn--primary:hover { filter: brightness(1.05); transform: translateY(-1px); }&#13;
+.cp-btn--secondary { background: #fff; color: var(--cp-navy); border-color: var(--cp-line); }&#13;
+.cp-btn--secondary:hover { border-color: var(--cp-navy); }&#13;
+&#13;
+/* ---- Cards / surfaces ---- */&#13;
+.cp-card {&#13;
+  background: #fff; border: 1px solid var(--cp-line);&#13;
+  border-radius: 14px; box-shadow: var(--cp-card-shadow);&#13;
+}&#13;
+&#13;
+/* ---- Eyebrow / section headings ---- */&#13;
+.cp-eyebrow {&#13;
+  color: var(--cp-gold); font-size: 12px; font-weight: 850;&#13;
+  letter-spacing: .11em; text-transform: uppercase; margin-bottom: 10px;&#13;
+}&#13;
+.cp-h2 { font-size: 26px; font-weight: 850; letter-spacing: -.01em; margin: 0 0 6px; }&#13;
+.cp-sub { color: var(--cp-muted); font-size: 14px; margin: 0; }&#13;
+&#13;
+/* ---- Status badges (used by every widget) ---- */&#13;
+.cp-badge {&#13;
+  display: inline-flex; align-items: center; gap: 6px;&#13;
+  min-height: 26px; padding: 0 12px; border-radius: 999px;&#13;
+  font-size: 12px; font-weight: 800; letter-spacing: .02em;&#13;
+  border: 1px solid transparent;&#13;
+}&#13;
+.cp-badge::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }&#13;
+.cp-badge--new       { color: var(--cp-navy);   background: rgba(10,37,64,.07);  border-color: rgba(10,37,64,.18); }&#13;
+.cp-badge--review    { color: #8a6d2f;          background: rgba(197,160,101,.14); border-color: rgba(197,160,101,.5); }&#13;
+.cp-badge--invest    { color: #8a6d2f;          background: rgba(197,160,101,.18); border-color: rgba(197,160,101,.6); }&#13;
+.cp-badge--approved  { color: #08796F;          background: rgba(20,184,166,.14); border-color: rgba(20,184,166,.5); }&#13;
+.cp-badge--rejected  { color: var(--cp-danger); background: rgba(192,57,43,.10);  border-color: rgba(192,57,43,.4); }&#13;
+.cp-badge--closed    { color: var(--cp-muted);  background: rgba(94,109,126,.10); border-color: rgba(94,109,126,.35); }</css_variables>
+        <footer display_value="Claim Pilot Footer">e67db67cc3d98fd0b68cd50d050131a6</footer>
+        <footer_fixed>true</footer_fixed>
+        <header display_value="Claim Pilot Header">f74d727cc3d98fd0b68cd50d050131b2</header>
+        <icon/>
+        <logo/>
+        <logo_alt_text/>
+        <matching_now_experience_theme/>
+        <name>Claim Pilot Theme</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 14:10:57</sys_created_on>
+        <sys_id>5e9cf6f8c3d98fd0b68cd50d050131d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Claim Pilot Theme</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sp_theme_5e9cf6f8c3d98fd0b68cd50d050131d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 14:14:30</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_theme>
+</record_update>

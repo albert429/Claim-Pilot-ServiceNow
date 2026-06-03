@@ -16,15 +16,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-01 03:52:46</sys_created_on>
         <sys_id>de1c1200c3110bd0b68cd50d050131e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>My Claims - Container 1</sys_name>
         <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
         <sys_update_name>sp_container_de1c1200c3110bd0b68cd50d050131e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-01 03:52:46</sys_updated_on>
+        <sys_updated_on>2026-06-03 15:29:50</sys_updated_on>
         <title/>
-        <width>container</width>
+        <width>container-fluid</width>
     </sp_container>
 </record_update>

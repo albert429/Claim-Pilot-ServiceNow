@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <aria_label/>
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">0a5203f0c31d8fd0b68cd50d050131c3</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 14:35:19</sys_created_on>
+        <sys_id>4e520ff4c31d8fd0b68cd50d05013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sp_column_4e520ff4c31d8fd0b68cd50d05013109</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 14:35:19</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</application>
+        <file_path/>
+        <instance_id>0a147c7cebf022943a48f459bad0cd68</instance_id>
+        <instance_name>dev318981</instance_name>
+        <name>sp_column_4e520ff4c31d8fd0b68cd50d05013109</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><aria_label/><class_name/><order>1</order><semantic_tag/><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">0a5203f0c31d8fd0b68cd50d050131c3</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-03 14:35:19</sys_created_on><sys_id>4e520ff4c31d8fd0b68cd50d05013109</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package><sys_policy/><sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope><sys_update_name>sp_column_4e520ff4c31d8fd0b68cd50d05013109</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-03 14:35:19</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1792161464</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>5e94f6b8c3998fd0b68cd50d05013199</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 14:35:19</sys_created_on>
+        <sys_id>0a520ff4c31d8fd0b68cd50d0501310d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e8de906580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 14:35:19</sys_updated_on>
+        <type>Column</type>
+        <update_guid>86520ff4301d8fd0b015c23c0a70b70c</update_guid>
+        <update_guid_history>86520ff4301d8fd0b015c23c0a70b70c:-1792161464</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">ba520ff4c31d8fd0b68cd50d05013131</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 14:35:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>419e55cf8dd04cf0a86561ec91bef1e1</sys_id>
+        <sys_metadata>4e520ff4c31d8fd0b68cd50d05013109</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_scope_delete display_value="">2d460c608bf64b0094b6c182c7dc02b9</sys_scope_delete>
+        <sys_update_name>sp_column_4e520ff4c31d8fd0b68cd50d05013109</sys_update_name>
+        <sys_update_version display_value="sp_column_4e520ff4c31d8fd0b68cd50d05013109">0a520ff4c31d8fd0b68cd50d0501310d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 14:35:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
