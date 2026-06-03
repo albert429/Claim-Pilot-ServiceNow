@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent>
+        <name>Approved Claims Card</name>
+        <properties>{"scoreSize":"auto","scoreAlignment":"start","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"wrapElements":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","sharedContext":null,"colors":{},"filterConfigurations":[],"componentId":"3r4yp2k8","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Insurance Claims","sourceType":"table","tableOrViewName":"x_1970973_claim_0_insurance_claims","filterQuery":"state=4","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5NzA5NzNfY2xhaW1fMF9pbnN1cmFuY2VfY2xhaW1zMTc4MDUyMjg3NzQwNg==","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4XzE5NzA5NzNfY2xhaW1fMF9pbnN1cmFuY2VfY2xhaW1zMTc4MDUyMjg3NzQwNg==","id":"ZEdGaWJHVjRYekU1TnpBNU56TmZZMnhoYVcxZk1GOXBibk4xY21GdVkyVmZZMnhoYVcxek1UYzRNRFV5TWpnM056UXdOZz09MTc4MDUyMjg3OTY4NA==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"headerColor":{"themeVariable":"","value":"#14b8a6"},"headerTitle":"Approved Claims","titleColor":{"themeVariable":"--now-color_text--primary-actionable","value":"#ffffff"}}</properties>
+        <requested_by/>
+        <required_translations>[{"comment":"","message":"Insurance Claims","code":"PAR_COMPONENT.4a14a885c359cfd0b68cd50d050131ca"},{"comment":"","message":"Approved Claims","code":"PAR_COMPONENT.4a14a885c359cfd0b68cd50d050131ca"},{"comment":"","message":"No data available.","code":"PAR_COMPONENT.4a14a885c359cfd0b68cd50d050131ca"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_COMPONENT.4a14a885c359cfd0b68cd50d050131ca"}]</required_translations>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 21:42:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a14a885c359cfd0b68cd50d050131ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Approved Claims Card</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>par_visualization_4a14a885c359cfd0b68cd50d050131ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 21:42:23</sys_updated_on>
+        <type>single_score</type>
+    </par_visualization>
+</record_update>

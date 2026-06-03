@@ -3,32 +3,47 @@
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
             <group_by_field/>
-            <list_id display_value="Insurance Claims - Default view" name="x_1970973_claim_0_insurance_claims" related_list="NULL" sys_domain="global" view="Default view">20607318c3dd8bd0b68cd50d050131d4</list_id>
+            <list_id display_value="Insurance Claims - Default view" name="x_1970973_claim_0_insurance_claims" related_list="NULL" sys_domain="global" view="Default view">cd09fb3cc3d1cfd0b68cd50d050131b0</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_1970973_claim_0_claim_tasks.parent_claim</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-02 04:39:31</sys_created_on>
-            <sys_id>28607318c3dd8bd0b68cd50d050131d6</sys_id>
+            <sys_created_on>2026-06-03 18:34:11</sys_created_on>
+            <sys_id>4909fb3cc3d1cfd0b68cd50d050131b2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-02 04:39:31</sys_updated_on>
+            <sys_updated_on>2026-06-03 18:34:11</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
             <group_by_field/>
-            <list_id display_value="Insurance Claims - Default view" name="x_1970973_claim_0_insurance_claims" related_list="NULL" sys_domain="global" view="Default view">20607318c3dd8bd0b68cd50d050131d4</list_id>
+            <list_id display_value="Insurance Claims - Default view" name="x_1970973_claim_0_insurance_claims" related_list="NULL" sys_domain="global" view="Default view">cd09fb3cc3d1cfd0b68cd50d050131b0</list_id>
             <order_by/>
             <position>1</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-02 04:39:31</sys_created_on>
-            <sys_id>28607318c3dd8bd0b68cd50d050131d7</sys_id>
+            <sys_created_on>2026-06-03 18:34:11</sys_created_on>
+            <sys_id>c509fb3cc3d1cfd0b68cd50d050131b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-02 04:39:31</sys_updated_on>
+            <sys_updated_on>2026-06-03 18:34:11</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <group_by_field/>
+            <list_id display_value="Insurance Claims - Default view" name="x_1970973_claim_0_insurance_claims" related_list="NULL" sys_domain="global" view="Default view">cd09fb3cc3d1cfd0b68cd50d050131b0</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-03 18:34:11</sys_created_on>
+            <sys_id>4d09fb3cc3d1cfd0b68cd50d050131b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-03 18:34:11</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Insurance Claims - Default view</calculated_name>
@@ -39,10 +54,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-02 04:39:31</sys_created_on>
+            <sys_created_on>2026-06-03 18:34:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>20607318c3dd8bd0b68cd50d050131d4</sys_id>
+            <sys_id>cd09fb3cc3d1cfd0b68cd50d050131b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Insurance Claims - Default view</sys_name>
             <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
@@ -50,7 +65,7 @@
             <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
             <sys_update_name>sys_ui_related_x_1970973_claim_0_insurance_claims_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-02 04:39:31</sys_updated_on>
+            <sys_updated_on>2026-06-03 18:34:11</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

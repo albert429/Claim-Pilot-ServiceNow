@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Claim Pilot Dashboard">f63a2045c399cfd0b68cd50d050131f7</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_1970973_claim_0.claim_manager" name="x_1970973_claim_0.claim_manager">63b2f857c38d03d0b68cd50d0501312b</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 22:42:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33d1bcc5c3d9cfd0b68cd50d050131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f63a2045c399cfd0b68cd50d050131f7</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>par_dashboard_permission_33d1bcc5c3d9cfd0b68cd50d050131a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 22:42:35</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

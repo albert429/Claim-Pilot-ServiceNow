@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="pa_viewer" name="pa_viewer">a90d30b3bf101100b96dac808c073950</contains>
+        <role display_value="x_1970973_claim_0.claim_manager" name="x_1970973_claim_0.claim_manager">63b2f857c38d03d0b68cd50d0501312b</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 22:45:59</sys_created_on>
+        <sys_id>21a2bc49c3d9cfd0b68cd50d05013123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_viewer.x_1970973_claim_0.claim_manager</sys_name>
+        <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
+        <sys_update_name>sys_user_role_contains_21a2bc49c3d9cfd0b68cd50d05013123</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 22:45:59</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

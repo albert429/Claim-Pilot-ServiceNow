@@ -5,7 +5,7 @@
         <cancel_condition/>
         <collection>x_1970973_claim_0_insurance_claims</collection>
         <condition_class/>
-        <duration>1970-01-01 04:00:00</duration>
+        <duration>1970-01-01 00:01:00</duration>
         <duration_type/>
         <enable_logging>false</enable_logging>
         <flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1ce4af64c3dd0fd0b68cd50d0501314f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Critical Claim Resolution</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claim Pilot" source="x_1970973_claim_0">dfb2b857c38d03d0b68cd50d050131f1</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Claim Pilot">dfb2b857c38d03d0b68cd50d050131f1</sys_scope>
         <sys_update_name>contract_sla_1ce4af64c3dd0fd0b68cd50d0501314f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-03 00:01:08</sys_updated_on>
+        <sys_updated_on>2026-06-03 18:40:29</sys_updated_on>
         <target>resolution</target>
         <timezone/>
         <timezone_source>task.caller_id.time_zone</timezone_source>
